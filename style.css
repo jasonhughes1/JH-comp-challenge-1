@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+}
+
+p {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.main {
+  background-color: #343d46;
+  height: 100vh;
+  /*display: flex;*/
+}
+
+.left-section {
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  height: 100vh;
+  width: 60%;
+
+}
+
+.right-section {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background: url("http://vignette3.wikia.nocookie.net/nintendo/images/e/e2/Artwork_-_MARIO.svg/revision/latest?cb=20161223040751&path-prefix=en");
+  background-repeat: no-repeat;
+  background-size:cover;
+  float: right;
+  height: 100vh;
+  width: 40%;
+
+}
+
+.three-buttons{
+  position:absolute;
+  top: 10px;
+  right: 10px;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  display: flex;
+  height: auto;
+  width: 10%;
+  border-radius: 30px;
+}
+
+.next-button,
+.previous-button {
+  flex-wrap: wrap;
+  height:35px;
+  width: 15%;
+  justify-content: space-between;
+  align-self: center;
+}
+
+
+
+
+.big-image{
+  height: 100vh;
+  width: 100%;
+
+}
+
+.art1{
+  background-color: #148fce;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 66.666%;
+}
+
+.art1:hover{
+  background-color: white;
+}
+
+.art1-header{
+  font-family: "Michroma";
+  font-size: 1.6em;
+  margin-left: 20px;
+
+}
+
+.art1-paragraph{
+  font-family: "Michroma";
+  font-size: 1em;
+  margin-left: 20px;
+}
+
+.button-one{
+  background-color: #148fce;
+  border: solid 1px;
+  font-family: "Michroma";
+  font-size: .4em;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 5px 10px 20px;
+  width: 25%;
+}
+.button-two{
+  background-color: #148fce;
+  border: solid 1px;
+  font-family: "Michroma";
+  font-size: .4em;
+  padding: 10px 10px 10px 10px;
+  width: 25%;
+}
+
+.art2{
+  align-items: center;
+  background-color: #14ceb0;
+  display: flex;
+  font-family: "Michroma";
+  flex-direction: column;
+  justify-content: center;
+  width: 33.333%;
+}
+
+.art2:hover{
+  background-color: white;
+}
+
+.donkeykong {
+  height: 100px;
+  width: 60%;
+}
+
+.dk{
+  font-family: "Michroma";
+  font-size: .7em;
+}
+
+.art3{
+  align-items: center;
+  background-color: #e84a5f;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 33.333%;
+}
+
+.art3:hover{
+  background-color: white;
+}
+
+.toad{
+  height: 75px;
+  width: 60%;
+}
+
+.toad-p {
+  font-family: "Michroma";
+  font-size: .7em;
+}
+
+.art4{
+  align-items: center;
+  background-color:#bbbbbb;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 33.333%;
+}
+
+.art4:hover{
+  background-color: white;
+}
+
+.goomba{
+  height: 75px;
+  width: 50%;
+}
+
+.goomba-p{
+  font-family: "Michroma";
+  font-size: .7em;
+}
+
+.art5{
+  align-items: center;
+  background-color: #148fce;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 33.333%;
+}
+
+.luigi {
+  height: 100px;
+  width: 60%;
+}
+
+.art5:hover{
+  background-color: white;
+}
+
+.luigi-p{
+  font-family: "Michroma";
+  font-size: .7em;
+}
+
+.art6{
+  align-items: center;
+  background-color: #343d46;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 33.333%;
+}
+.art6:hover{
+  background-color: white;
+}
+
+.bowser {
+  height: 100px;
+  width: 60%;
+}
+
+.bowser-p{
+  color: #bbbbbb;
+  font-family: "Michroma";
+  font-size: .7em;
+}
+
+
+.art7{
+  align-items: center;
+  background-color: #14ceb0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 33.333%;
+}
+
+.art7:hover{
+  background-color: white;
+}
+
+.princess {
+  height: 100px;
+  width: 60%;
+
+}
+
+.princess-p{
+  font-family: "Michroma";
+  font-size: .7em;
+}
+
+
+.art8{
+  align-items: center;
+  background-color:#e84a5f;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 33.333%;
+}
+
+
+.art8:hover{
+  background-color: white;
+}
+
+
+
+.yoshi {
+  height: 100px;
+  width: 60%;
+
+}
+
+.yoshi-p{
+  font-family: "Michroma";
+  font-size: .7em;
+}
+
+  @media screen and (max-width: 1200px){
+      .right-section {
+        display: none;
+        }
+
+      .left-section {
+        float: none;
+        width: 100%;
+        }
+
+  @media screen and (max-width: 500px){
+    .main {
+      background-color: inherit;
+    }
+
+    .right-section {
+      display: none;
+      }
+
+    .left-section {
+      float: none;
+      width: 100%;
+      }
+
+   .art1,
+   .art2,
+   .art3,
+   .art4,
+   .art5,
+   .art6,
+   .art7,
+   .art8
+    {
+     width: 100%;
+     margin-top: 10px;
+     padding-top: 20px;
+
+   }
+  }
